@@ -337,22 +337,43 @@ h3{
 .project-container{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    height: 20rem;
+    justify-content:left;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.project-container1{
+    display: flex;
+    width: 100%;
+    justify-content:center;
     gap: 20px;
     flex-wrap: wrap;
+    height: 20rem;
+    margin-bottom: 25px;
+}
+.project-container2{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 20rem;
+    margin-bottom: 25px;
 }
 .project-box{
     position: relative;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30%;
-    height: 250px;
+    width: auto;
+    height: auto;
     background: var(--color-white);
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
+    
 }
 .project-box>i{
     font-size: 50px;
@@ -363,6 +384,8 @@ h3{
 .project-box label{
     font-size: 15px;
     color: #777;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .project-box::after, .contact-info::after{
     content: "";
