@@ -42,7 +42,7 @@ html{
 .btn{
     font-weight: 500;
     padding: 12px 20px;
-    background: #efefef;
+    background: #efefef; 
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -310,9 +310,12 @@ h3{
     background: var(--first-color);
     color: var(--color-white);
     border-radius: 30px;
+    margin-bottom: 30px;
+    
 }
 .about-btn button:hover{
     background: var(--first-color-hover);
+    margin-bottom: 30px;
 }
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
@@ -350,16 +353,7 @@ h3{
     gap: 20px;
     flex-wrap: wrap;
     height: 20rem;
-    margin-bottom: 25px;
-}
-.project-container2{
-    display: flex;
-    width: 100%;
-    justify-content:center;
-    gap: 20px;
-    flex-wrap: wrap;
-    height: 20rem;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 .project-box{
     position: relative;
